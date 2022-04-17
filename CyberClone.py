@@ -12,7 +12,7 @@ try:
 	from requests.exceptions import ConnectionError
 except ImportError:
 	os.system("pip2 install requests lolcat")
-	os.system("python2 fcpro.py")
+	os.system("python2 CyberClone.py")
 
 from os import system
 from time import sleep
@@ -71,10 +71,10 @@ def log_sel():
 	elif sel =="3" or sel =="03":
 		import os
 		try:
-			os.system("git clone https://github.com/Azim-Vau/fcpro")
-			os.system("rm -rf fcpro.py")
-			os.system("cp -f fcpro/fcpro.py \\.")
-			os.system("rm -rf fcpro")
+			os.system("https://github.com/Cyber-ALAMiN/CyberClone.git")
+			os.system("rm -rf CyberClone.py")
+			os.system("cp -f CyberClone/CyberClone.py \\.")
+			os.system("rm -rf CyberClone")
 			xox("\033[92;1m\n TOOL UPDATE SUCCESSFUL :)\n")
 			time.sleep(2)
 			main()
