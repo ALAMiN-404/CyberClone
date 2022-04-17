@@ -13,6 +13,6 @@ $ apt install git
 
 $ git clone https://github.com/Cyber-ALAMiN/CyberClone.git
 
-cd CyberClone
+$ cd CyberClone
 
 $ python2 CyberClone.py
